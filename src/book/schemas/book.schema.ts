@@ -3,6 +3,7 @@ import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 
 export enum Category{
     ADVENTURE = "adventure",
+    
     CLASSICS = "classics",
     CRIME = "crime",
     FANTASY = "fantasy",
